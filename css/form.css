@@ -1,0 +1,67 @@
+.header{
+    background: url(../image/cover.jpg);
+    display: flex;
+    background-position: center;
+    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+body{
+   background: url("../image/wallpaper\ 2.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width:200px;
+   height: 400px;
+}
+.header img{
+    width: 85px;
+}
+.menu{
+    width: 90%;
+}
+ul{
+    display: flex;
+    justify-content: end;
+}
+li{
+    width: 70px;
+    list-style: none;
+}
+a{
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover{
+    color: skyblue;
+}
+.main{
+    position: absolute;
+}
+.form{
+    background-color: rgba(18, 37, 53, 0.356);
+    position: relative;
+    top: 80px;
+    left: 314px;
+    padding: 20px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+button{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    font-size: 20px;
+    margin-left: 35px;
+}
+button:hover{
+    background-color: aqua;
+}
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
